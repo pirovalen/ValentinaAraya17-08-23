@@ -1,0 +1,24 @@
+$ git init
+$ git remote add origin https://github.com/pirovalen/ValentinaAraya17-08-23.git
+$ git branch -m main
+$ touch main.js
+$ touch index.html
+$ git add . 
+$ git commit -m "commit 01 de ValentinaAraya"
+$ git push origin main
+$ git branch feature
+$ git checkout feature
+$ mkdir Hardware Software SeguridadInformatica
+$ cd Hardware
+$ touch resumen.txt
+$ cd ../Software
+$ touch resumen.txt
+$ cd ../SeguridadInformatica
+$ touch resumen.txt
+$ cd ..
+$ git add .
+$ git commit -m "commit 02 ValentinaAraya"
+$ git push origin feature
+$ git checkout master
+$ git merge feature
+$ touch comandos.txt
